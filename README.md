@@ -7,4 +7,6 @@ DNA.Seqv2.py: A refined version of DNA.seq.count.py that performs the same analy
 
 biopython1.py: Uses Biopython to parse a FASTQ file and output the ID and sequence length of the first five records. Built for the SRR37176627 accession from the NCBI Sequence Read Archive, but compatible with other FASTQ.gz files if the file path is updated in the script.
 
+biopythonV2.py: Does the same as biopython1.py but the major difference is that it does not output duplicates, only unique IDs.
+
 Python and Biopython are required to run these scripts.
